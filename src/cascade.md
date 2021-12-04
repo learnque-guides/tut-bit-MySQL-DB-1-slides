@@ -1,0 +1,3 @@
+# Cascade
+
+If we will have an analogy between *parent* and *child* in a simple words cascade means that when a *parent* row is deleted (killed), no orphan row should stay alive in the *child* table. All *children* of the parent row are killed (deleted), too. If any of these *children* has *grandchildren* (in another table), these should be killed, too (and all descendants, as long as there is a cascade effect defined.)

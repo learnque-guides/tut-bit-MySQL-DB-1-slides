@@ -1,0 +1,19 @@
+# The CAST, CONVERT, and PARSE functions and their TRY_ counterparts
+
+* CAST(value AS datatype)
+* TRY_CAST(value AS datatype)
+* CONVERT (datatype, value [, style_number])
+* TRY_CONVERT (datatype, value [, style_number])
+* PARSE (value AS datatype [USING culture])
+* TRY_PARSE (value AS datatype [USING culture])
+
+```sql
+SELECT CAST('20160212' AS DATE);
+SELECT CAST(SYSDATETIME() AS DATE);
+SELECT CAST(SYSDATETIME() AS TIME);
+SELECT CONVERT(CHAR(8), CURRENT_TIMESTAMP, 112);
+SELECT CONVERT(DATETIME, CONVERT(CHAR(8), CURRENT_TIMESTAMP, 112), 112);
+SELECT CONVERT(CHAR(12), CURRENT_TIMESTAMP, 114);
+SELECT PARSE('02/12/2016' AS DATETIME USING 'en-US');
+SELECT PARSE('02/12/2016' AS DATETIME USING 'en-GB');
+```
