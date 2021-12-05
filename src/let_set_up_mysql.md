@@ -1,37 +1,27 @@
-# Let's set up MySQL
+# Let's set up MySQL (MariaDB)
 
-* Download MySQL 2019 Community Server: [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
+* Download MariaDB Community Server: [https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.6.5&os=windows&cpu=x86_64&pkg=msi&m=uab](https://mariadb.org/download/?t=mariadb&p=mariadb&r=10.6.5&os=windows&cpu=x86_64&pkg=msi&m=uab)
 * Downloaded msi file and double click on it.
 * Select basic set up:
-![1 step](./images/1_step.png)
+
+![1 step](./images/step_1.png)
 
 ---
 
-![2 step](./images/2_step.png)
+![2 step](./images/step_2.png)
 
 ---
 
-![3 step](./images/3_step.png)
+![3 step](./images/step_3.png)
 
 ---
 
-![4 step](./images/4_step.png)
+![4 step](./images/step_4.png)
 
 ---
 
-![5 step](./images/5_step.png)
+![5 step](./images/step_5.png)
   
 ---
 
-![6 step](./images/6_step.png)
-
----
-
-![7 step](./images/7_step.png)
-
----
-
-![8 step](./images/8_step.png)
-
-In the next steps you will be asked to do post configuration. Just use default settings and when you will be asked to enter password for root user - enter your password and press next.
-
+![6 step](./images/step_6.png)
