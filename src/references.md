@@ -9,4 +9,6 @@
 
 ## Links
 1. [https://www.w3schools.com/sql/](https://www.w3schools.com/sql/)
-2. [http://www.kc.gf.vu.lt/DBVS/DBVS-Teorija-2012-09-01.pdf](http://www.kc.gf.vu.lt/DBVS/DBVS-Teorija-2012-09-01.pdf)
+2. [https://mariadb.com/kb/en/documentation/](https://mariadb.com/kb/en/documentation/)
+3. [https://dev.mysql.com/doc/refman/8.0/en/](https://dev.mysql.com/doc/refman/8.0/en/)
+4. [http://www.kc.gf.vu.lt/DBVS/DBVS-Teorija-2012-09-01.pdf](http://www.kc.gf.vu.lt/DBVS/DBVS-Teorija-2012-09-01.pdf)
