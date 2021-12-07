@@ -6,7 +6,7 @@
 
 * Enter you root password:
 
-![Mysql cli password](./images/mysq_cli_password.png)
+![Mysql cli password](./images/mysql_cli_password.png)
 
 * Enter statement to inspect databases:
 
